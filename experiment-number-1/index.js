@@ -14,10 +14,12 @@ document.addEventListener("DOMContentLoaded", function () {
     })
 
     btn.addEventListener('click', function(){
-        opros.textContent = 'Ошибка повторите попытку!!!'
+        opros.textContent = 'Я так и знал!!!';
+        this.textContent = "Плотва"
     })
 
     btn1.addEventListener('click', function(){
-        opros.textContent = 'Молодец,Геральд!'
+        opros.textContent = 'Молодец,Геральд!';
+
     })
 })

@@ -13,9 +13,10 @@ body{
     display: flex;
     justify-content: center;
 }
-h2{
-    color: #d411dc;
-    letter-spacing: 1px;
+h1{
+    color: #096ef1;
+    letter-spacing: 5px;
+
 }
 .btn{
     position: relative;
@@ -25,16 +26,31 @@ h2{
     font-weight: 600;
     height: 50px;
     transition: 0.08s;
-    border: 3px solid #d411dc;
-    background-color: whitesmoke;
-    border-radius: 10px;
+    border: 3px solid #096ef1;
+    background-color: cornsilk;
+    border-radius: 30px;
     cursor: pointer;
-    margin: 40px 5px;
+    margin: 35px 5px;
+}
+.btn1{
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 120px;
+    font-weight: 600;
+    height: 50px;
+    transition: 0.08s;
+    border: 3px solid #096ef1;
+    background-color: aquamarine;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 35px 5px;
 }
 .link-back {
-    font-size: 24px;
-    color: white;
-    position: fixed;
-    bottom: 8px;
-    left: 8px;
+    font-size: 34px;
+    color: #096ef1;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-style: italic;
 }

@@ -3,3 +3,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.link-back {
+    font-size: 34px;
+    color: #096ef1;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    font-style: italic;
+}
+
+.link-back a {
+    display: block;
+    width: fit-content;
+
+}
+
+.link-back__item:not(:last-child) {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #096ef1;
+}
+
+.link-back li:nth-child(even) a {
+    margin-left: auto;
+}
