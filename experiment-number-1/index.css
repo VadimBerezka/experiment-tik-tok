@@ -1,0 +1,40 @@
+body{
+    position: relative;
+    background-image: url("https://i.playground.ru/p/2szMEDAOkQ7ViwktkKXKKg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: #d411dc;
+    letter-spacing: 1px;
+}
+.btn{
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 120px;
+    font-weight: 600;
+    height: 50px;
+    transition: 0.08s;
+    border: 3px solid #d411dc;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px 5px;
+}
+.link-back {
+    font-size: 24px;
+    color: white;
+    position: fixed;
+    bottom: 8px;
+    left: 100px;
+}
