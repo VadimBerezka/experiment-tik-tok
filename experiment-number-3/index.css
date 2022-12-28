@@ -19,7 +19,13 @@ p {
     font-size: 30px;
     color: aquamarine;
 }
-
+.link-back1{
+    font-size: 50px;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .circle {
     width: 100px;
     height: 100px;
@@ -29,7 +35,7 @@ p {
     opacity: 1;
     animation-duration: 4s;
     animation-delay: 2s;
-    animation-iteration-count: 10;
+    animation-iteration-count: 1;
     animation-name: loading;
 }
 
@@ -65,4 +71,17 @@ p {
         right: 0px;
         top: 0px;
     }
+}
+.blend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blend img{
+    position: absolute;
+}
+.blend h1{
+    font-size: 80px;
+    color: #f15523;
+    mix-blend-mode: overlay;
 }
