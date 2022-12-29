@@ -9,6 +9,7 @@ body{
     background-image: url("https://pbs.twimg.com/media/DE8q59yW0AEPD3f?format=jpg&name=large");
 }
 .btn-grad{
+
     position: absolute;
     width: 200px;
     height: 60px;
@@ -29,7 +30,7 @@ body{
 }
 @keyframes animate{
     0% {
-        background-position: 0%;
+        background-position: 1%;
     }
     100% {
         background-position: 400%;
@@ -62,3 +63,4 @@ body{
     left: 10px;
     font-style: italic;
 }
+
