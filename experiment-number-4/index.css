@@ -1,0 +1,110 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://mobimg.b-cdn.net/v3/fetch/ed/edfa90b0ba2708be000f13a28f63b29f.jpeg?w=1470&r=0.5625");
+}
+
+.link-back {
+    font-size: 34px;
+    color: #096ef1;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-style: italic;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    border: 10px solid #096ef1;
+    border-radius: 25.7%;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background-image: url("https://minsknews.by/wp-content/uploads/2019/10/Mysh-Mouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: red;
+    border-radius: 100%;
+}
+
+.container:hover .inner {
+    animation-name: move-circle;
+    animation-duration: 9000ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-circle {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateX(0) translateY(100%);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+
+}
+
+.inner1 {
+    width: 50%;
+    height: 50%;
+    background-image: url("https://avatarko.ru/img/kartinka/10/zhivotnye_kot_9445.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    border-radius: 100%;
+}
+
+.container:hover .inner1 {
+    animation-name: move-circle1;
+    animation-duration: 9000ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move-circle1 {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    25% {
+        transform: translateY(-100%);
+    }
+    50% {
+        transform: translateX(100%) translateY(-100%);
+    }
+    75% {
+        transform: translateX(100%) translateY(0);
+    }
+    100% {
+        transform: translateX(0) translateY(0);
+    }
+
+}
